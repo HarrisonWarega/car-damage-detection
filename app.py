@@ -5,7 +5,7 @@ st.title("Vehicle Damage Detection (Client Dashboard)")
 
 uploaded_file = st.file_uploader("Upload the file", type=["jpg", "png"])
 
-FFASTAPI_URL = "http://127.0.0.1:8000/predict"
+FASTAPI_URL = "http://127.0.0.1:8000/predict"
 
 if uploaded_file:
     # 1. Display the image locally immediately for the user
